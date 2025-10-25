@@ -1,0 +1,49 @@
+# ============================================
+# .NET / C# Backend
+# ============================================
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio cache/options directory
+.vs/
+.vscode/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build Results
+*.dll
+*.exe
+*.pdb
+*.cache
+
+# SQLite Database files
+*.db
+*.db-shm
+*.db-wal
+/backend/MiniProjectManager.API/miniprojectmanager.db
+/backend/MiniProjectManager.API/miniprojectmanager.db-shm
+/backend/MiniProjectManager.API/miniprojectmanager.db-wal
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+
