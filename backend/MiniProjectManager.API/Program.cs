@@ -74,12 +74,15 @@ builder.Services.AddAuthentication(options =>
 // Configure CORS
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("AllowFrontend", policy =>
+    options.AddPolicy("AllowReactApp", policy =>
     {
-        policy.SetIsOriginAllowed(origin => true) // Allow any origin
-      .AllowAnyHeader()
-      .AllowAnyMethod()
-      .AllowCredentials();
+        policy.WithOrigins(
+            "http://localhost:3000", 
+            "http://localhost:5173",
+            "https://appsian-tech-assignment.vercel.app")
+              .AllowAnyHeader()
+              .AllowAnyMethod()
+              .AllowCredentials();
     });
 });
 
