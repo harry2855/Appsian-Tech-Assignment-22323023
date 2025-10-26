@@ -103,7 +103,7 @@ This will start the backend server.
 Open a **new terminal window**, then execute:
 
 ```bash
-cd mini-project-manager-ui
+cd frontend
 npm i
 npm run dev
 ```
