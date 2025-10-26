@@ -94,7 +94,7 @@ dotnet restore
 dotnet run
 ```
 
-This will start the backend server, typically on `http://localhost:5000`.
+This will start the backend server.
 
 ---
 
